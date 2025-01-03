@@ -1,7 +1,7 @@
 # Mermaid Sample codes
 
 ```mermaid
-Flowchart LR
+flowchart LR
     One --> Two 
     Two --> Three
     Three --> Four
