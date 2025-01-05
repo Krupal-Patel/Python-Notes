@@ -1,7 +1,7 @@
 
 ```mermaid
 flowchart TD
-  rect 
+  subgraph id[Frame Problem]
   step1[Understand the Business] --> step2[Understand the Stakeholders]
   step2 --> step3[Explore the Data]
   end
