@@ -6,6 +6,7 @@ flowchart TD
   step3 --> step4[Data Wrangling]
   step4 --> step5[Descriptive Statistics]
   step5 <--> step6[Data Wrangling]
+  step 6 <--> step5
   step6 --> Insights
 
 ```
