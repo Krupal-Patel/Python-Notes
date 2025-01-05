@@ -1,6 +1,6 @@
 
 ```mermaid
-flowchart TD
+graph TD
   subgraph id1[Frame a Business Problem]
   step1[Understand the Business] --> step2[Understand the Stakeholders]
   end
