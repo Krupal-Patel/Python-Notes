@@ -6,7 +6,7 @@ flowchart TD
   step2 --> step3[Explore the Data]
   end
   subgraph id2[**Exploratory Data Analysis**]
-  step2 --> step3[Explore the Data]
+  step2 --> step3
   step3 --> step4[Data Wrangling]
   step4 --> step5[Descriptive Statistics]
   step5 <--> step6[Data Wrangling]
