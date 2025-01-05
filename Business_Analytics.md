@@ -1,6 +1,6 @@
 
 ```mermaid
-flowchart LR
+flowchart TD
   step1[Understand the Business] --> step2[Understand the Stakeholders]
   step2 --> step3[Explore the Data]
   step3 --> step4[Data Wrangling]
