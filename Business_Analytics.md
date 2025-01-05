@@ -2,7 +2,7 @@
 ```mermaid
 flowchart TD
   subgraph id1[Frame a Business Problem]
-  step1[Understand the Business] --> step2[Understand the Stakeholders
+  step1[Understand the Business] --> step2[Understand the Stakeholders]
   step2 --> step3[Explore the Data]
   end
   subgraph id2[**Exploratory Data Analysis**]
