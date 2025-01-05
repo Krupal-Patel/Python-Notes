@@ -4,6 +4,7 @@ flowchart TD
   subgraph id1[Frame a Business Problem]
   step1[Understand the Business] --> step2[Understand the Stakeholders]
   end
+end
 flowchart LR
   subgraph id2[**Exploratory Data Analysis**]
   step2 --> step3[Explore the Data]
@@ -13,5 +14,5 @@ flowchart LR
   step6 <--> step5
   end
   step6 --> Insights
-
+end
 ```
