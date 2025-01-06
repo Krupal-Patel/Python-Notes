@@ -10,3 +10,12 @@ Anscombe's Quartet is a famous example of why including data visualizations to s
 - Exploratory data visualizations are used to better understand and make sense of the data you are working with.
 - Explanatory data visualizations are used to help explain your insights to others.
 - There are many tools that allow analysts to create data visualizations, including spreadsheet software. However, many employers specifically seek mastery of Tableau, which enables you to process, manipulate, and organize data into data visualizations.
+
+
+## Tableau Public — a free platform that allows you to create and share data visualizations
+
+- With spreadsheet software, you can clean and wrangle data as well as create data visualizations, but it does not allow for manipulation of large datasets. 
+- With SQL, you can pull, store, and wrangle large data from databases, but you cannot create visualizations.
+- With Tableau, you can pull data from databases, manipulate large datasets, and create data visualizations, but its data cleaning and wrangling capabilities are limited.
+
+In general, if your data is relatively clean, then Tableau could be the only tool you use in your analysis, but you will more likely find yourself using Tableau alongside other tools.
