@@ -5,3 +5,4 @@
 
 ### Tableau Notes
   - [Introduction to Tableau](./tableau_1.md)
+  - [Preprocessing Data](./tableau_2.md)
