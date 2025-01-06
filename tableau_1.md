@@ -19,3 +19,14 @@ Anscombe's Quartet is a famous example of why including data visualizations to s
 - With Tableau, you can pull data from databases, manipulate large datasets, and create data visualizations, but its data cleaning and wrangling capabilities are limited.
 
 In general, if your data is relatively clean, then Tableau could be the only tool you use in your analysis, but you will more likely find yourself using Tableau alongside other tools.
+
+
+## Datasource Page
+### 1. Left Pane
+The left pane is broken down into two main components: connections and sheets.
+
+  - Connections: This contains information about the data source you're connected to. It will tell you the name of the data source as well as the data source type.
+  - Sheets: This section of the interface displays all the sheets (also called tables) that are included within the data source.
+
+### 2. Canvas
+  - The canvas is where you choose and configure the tables you want to select for your analysis by dragging them from the left pane onto the canvas.
