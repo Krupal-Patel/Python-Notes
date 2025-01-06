@@ -30,3 +30,18 @@ The left pane is broken down into two main components: connections and sheets.
 
 ### 2. Canvas
   - The canvas is where you choose and configure the tables you want to select for your analysis by dragging them from the left pane onto the canvas.
+
+### 3. Metadata Grid
+  - The metadata grid displays the fields in your data source as rows so that you can quickly examine the structure of your dataset and perform routine management tasks, such as renaming fields or hiding multiple fields at once.
+
+
+### 4. Data Grid
+  - The data grid is where you will see the configuration of the raw data you have created during your analysis. This area displays the first 100 rows of your data.
+    (a) Field: A field is a column from your data source. From this point on, table columns will be referred to as fields.
+    (b) Field name: Each field has its field name bolded at the top. This is a part of the Tableau header.
+    (c) Table name: Each field indicates the table it belongs to above the field name. This is especially helpful when you're using multiple tables in your canvas.
+    (d) Data type: Every field is automatically assigned a data type (e.g., numerical, date, geographic, etc.). You will learn about data types in more detail later in this certificate.
+
+- Although Tableau is not the most robust tool for cleaning or wrangling your data, it does surpass other tools in its data exploration and interactive analysis abilities. This allows more time to focus on the inferences and insights produced from the data and less time on building or navigating a tool.
+
+- Tableau is not as powerful as Excel when it comes to creating data, preprocessing data, and multi-layered calculations.
