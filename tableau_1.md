@@ -37,10 +37,10 @@ The left pane is broken down into two main components: connections and sheets.
 
 ### 4. Data Grid
   - The data grid is where you will see the configuration of the raw data you have created during your analysis. This area displays the first 100 rows of your data.
-    (a) Field: A field is a column from your data source. From this point on, table columns will be referred to as fields.
-    (b) Field name: Each field has its field name bolded at the top. This is a part of the Tableau header.
-    (c) Table name: Each field indicates the table it belongs to above the field name. This is especially helpful when you're using multiple tables in your canvas.
-    (d) Data type: Every field is automatically assigned a data type (e.g., numerical, date, geographic, etc.). You will learn about data types in more detail later in this certificate.
+    - Field: A field is a column from your data source. From this point on, table columns will be referred to as fields.
+    - Field name: Each field has its field name bolded at the top. This is a part of the Tableau header.
+    - Table name: Each field indicates the table it belongs to above the field name. This is especially helpful when you're using multiple tables in your canvas.
+    - Data type: Every field is automatically assigned a data type (e.g., numerical, date, geographic, etc.). You will learn about data types in more detail later in this certificate.
 
 - Although Tableau is not the most robust tool for cleaning or wrangling your data, it does surpass other tools in its data exploration and interactive analysis abilities. This allows more time to focus on the inferences and insights produced from the data and less time on building or navigating a tool.
 
