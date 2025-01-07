@@ -18,10 +18,10 @@ Numerical | # | Numbers only, with or without a decimal
 Boolean | T\|F | Values that are either true or false
 Geographic | Geographic icon - looks like a globe | Countries, zip codes, addresses, etc.
 
-## How to edit Data Type
+### How to edit Data Type
 Field's data type can be edited in several ways. In the data grid, you can either right-click the field header, click the triangle in the top-right corner of the field, or click on the data tape icon. All of these options will bring up the same menu to edit Data Type.
 
-## Dirty Data Examples
+### Dirty Data Examples
 
 Type | Description | Example
 |---|---|---|
