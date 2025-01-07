@@ -31,3 +31,12 @@ Inconsistent data | Values that are represented differently | "Monday," "Mon," a
 Inconsistent data types | Values that are represented using different types of data | The word "eight" and the numeral "8" in an Hours Slept field
 Duplicate data | Data that was unintentionally recorded more than once | Multiple votes from the same person
 Missing or incomplete data | Values that are either entirely missing or incomplete | "John" found in a Full Name field (missing the last name)
+
+### Preprocess Data Source
+Preprocess data by renaming, removing, and pivoting fields, and using Tableau's built-in Data Interpreter.
+
+#### How to Rename a Field
+Renaming a field in Tableau can be done a couple of different ways. You can either double-click the field name or right-click on the field and select "Rename." This can be done either in the data grid or the metadata grid.
+
+#### How to Hide a Field
+Hiding a field can be done by right-clicking the field and selecting "Hide."
