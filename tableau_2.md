@@ -67,3 +67,9 @@ Tableau was not built for cleaning data. It is intended to be used alongside a d
   - Hiding fields is advantageous because it can streamline your analysis by getting irrelevant fields out of your way to better focus on the relevant content.
  - Pivoting fields in Tableau involves transforming columns into rows, which allows for a more efficient and streamlined view of data with fewer columns.
   - Care should be taken when updating a field's data type. Before changing the data type, consider why it was incorrectly classified. If you change the data type of a field, then any data that doesn't match the data type will be replaced with "null."
+
+
+### Advance Data Processing
+    - Calculated fields
+    - Splitting fields
+    - Data source filters
