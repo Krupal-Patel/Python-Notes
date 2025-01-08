@@ -21,6 +21,7 @@ Geographic | Geographic icon - looks like a globe | Countries, zip codes, addres
 ### How to edit Data Type
   - Field's data type can be edited in several ways. In the data grid, you can either right-click the field header, click the triangle in the top-right corner of the field, or click on the data tape icon. All of these options will bring up the same menu to edit Data Type.
 
+
 ### Dirty Data Examples
 
 Type | Description | Example
@@ -75,4 +76,12 @@ Tableau was not built for cleaning data. It is intended to be used alongside a d
     - Data source filters
 
 #### Calculated Fields
+  - Right-click the field that you would like to work with. In this case, Customer Name. Then, from the dropdown, click “Create” → “Calculated Field…”
+
+#### Datasource Filters
+In Tableau, there are two main ways to filter data:
+
+    - **Data Source Filters:** These are used to filter data in the data source before the data gets to the worksheet. When a data source filter is used, it affects the entire Tableau workbook. Filtering the data source is useful when dealing with larger datasets because filtering out unneeded data helps improve the performance of your Tableau creations.
+    - **Worksheet Filters:** These are used to filter data for a specific data visualization. The data still exists in the data source — you have simply restricted which pieces of data appear in the visualization you're creating. You will use these often throughout your analysis to develop new perspectives on your datasets. While not an official name provided by Tableau, this course will refer to these types of filters as "worksheet filters," as you use them on a worksheet.
+
   - [Tableau Function List.](https://help.tableau.com/current/pro/desktop/en-us/functions.htm)
