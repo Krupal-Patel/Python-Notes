@@ -75,3 +75,4 @@ Tableau was not built for cleaning data. It is intended to be used alongside a d
     - Data source filters
 
 #### Calculated Fields
+  - Tableau Function List./(https://help.tableau.com/current/pro/desktop/en-us/functions.htm)
