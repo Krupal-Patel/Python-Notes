@@ -85,3 +85,14 @@ In Tableau, there are two main ways to filter data:
 
   - **Data Source Filters** : These are used to filter data in the data source before the data gets to the worksheet. When a data source filter is used, it affects the entire Tableau workbook. Filtering the data source is useful when dealing with larger datasets because filtering out unneeded data helps improve the performance of your Tableau creations.
   - **Worksheet Filters** : These are used to filter data for a specific data visualization. The data still exists in the data source — you have simply restricted which pieces of data appear in the visualization you're creating. You will use these often throughout your analysis to develop new perspectives on your datasets. While not an official name provided by Tableau, this course will refer to these types of filters as "worksheet filters," as you use them on a worksheet.
+
+
+#### Advantages of Data Source Filters
+  - Data source filters are applied across an entire workbook and are created in the data source tab. This means that any data that is filtered out will not be available to use for any visualizations in the workbook.
+
+Data source filters provide two main advantages.
+  - **Performance/optimization**: As mentioned above, data source filters essentially ask Tableau to keep only the rows that meet specific criteria. This means that there is less data Tableau has to manage and manipulate, which means the dataset will use less of Tableau's processing power. You will often see quickened performance when using data source filters, especially when working with very large datasets.
+  - **Security**: Another key benefit of using data source filters is improved security when working with datasets that contain sensitive data. While a worksheet filter can block sensitive data from data visualizations, there are certain access permissions that, if set, can allow users to view the full dataset. This is an issue because some data is not meant to be shared (e.g., health records). If a dataset contains sensitive data that users should not see, you can use a data source filter so the data never makes it to Tableau in the first place.
+
+##### How to Create a Data Source Filter
+Creating a data source filter in Tableau is done in the data source page. In the top-right corner, you will see a section called "Filters" that contains an "Add" button. Click this button to create a new data source filter or to edit existing filters. If no data source filters have been created, an empty Edit Data Source Filters dialog box will appear.
