@@ -96,3 +96,18 @@ Data source filters provide two main advantages.
 
 ##### How to Create a Data Source Filter
 Creating a data source filter in Tableau is done in the data source page. In the top-right corner, you will see a section called "Filters" that contains an "Add" button. Click this button to create a new data source filter or to edit existing filters. If no data source filters have been created, an empty Edit Data Source Filters dialog box will appear.
+
+### Joins, Unions and Relationship
+
+#### Joins
+  - A join is a horizontal connection between two or more tables. When joining tables, there must be at least one common field with shared values between the tables. 
+
+#### Unions
+  - A union is a vertical connection between two or more tables. For a union to happen properly, the fields within both tables must match.
+
+#### Relationship
+  - A relationship does not physically connect tables, unlike joins and unions. Instead, Tableau describes a relationship as a “contract” between tables. They are similar to joins, but there is no need to select the join type, so you won’t see a Venn diagram. Instead, you simply select the matching fields from the tables. Tableau will automatically select the join type during your analysis based on the fields used in the visualization.
+
+
+
+
