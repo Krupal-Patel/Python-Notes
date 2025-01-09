@@ -50,7 +50,16 @@ Because a dimension cannot be measured, it is used to create groups.
 ### Worksheet Organization
   - Organize worksheets by creating folders and hierarchies.
 
+#### FOLDERS
   - Creating folders in Tableau is simple, although you'll need to first change one setting in order to create folders. By default, Tableau orders the sidebar based on the data source tables. If you would like to use folders, then you'll need to change this setting so that it's grouped by folders. This can be done simply by selecting the arrow to the right of the search bar and then "Group by Folder."
   - From there, to create a folder, simply right-click one of the fields you would like to put inside a folder, and select "Folders" → "Create Folder..."
   - From there, you'll give your folder a name and then drag any additional fields you would like directly into the folder.
   - **Note that if you don't update the sidebar setting to "group by folder," then you will not have the option to create folders.**
+
+#### HIERARCHIES
+  - A Tableau Hierarchy is another organizational structure in which dimensional metadata is organized by position.
+  - Tableau will sometimes assume and implement hierarchies itself, but they can also be created manually. The icon used to represent a hierarchy is similar to what you may have seen with a typical family tree, with a parent node branching off to two child nodes. Hierarchies give a rank to the metadata and allow for the data to be used in drill-down reports, essentially specifying what fields makeup or "belong to" other fields. To drill down in Tableau means to break data into smaller pieces.
+
+#### GROUPS
+  - Related fields are placed in folders.
+  - Related values are placed in groups.
