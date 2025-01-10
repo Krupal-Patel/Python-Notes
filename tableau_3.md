@@ -89,3 +89,4 @@ Because a dimension cannot be measured, it is used to create groups.
     REPLACE(string, substring, replacement) | Searches a string for a specific substring and replaces it with a specified string.
     RIGHT(string, number) | Returns all characters from the right of the specified character.
     TRIM(string) | Returns the string with the leading and trailing spaces removed.
+  - [Full list of string functions in Tableau](http://help.tableau.com/current/pro/desktop/en-us/functions_functions_string.htm)
