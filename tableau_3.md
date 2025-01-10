@@ -90,3 +90,18 @@ Because a dimension cannot be measured, it is used to create groups.
     RIGHT(string, number) | Returns all characters from the right of the specified character.
     TRIM(string) | Returns the string with the leading and trailing spaces removed.
   - [Full list of string functions in Tableau](http://help.tableau.com/current/pro/desktop/en-us/functions_functions_string.htm)
+
+### IF/THEN STATEMENT
+    
+    IF SUM([Sales]) >= 10000 AND SUM([Sales]) <= 15000 THEN "Above Benchmark"
+    ELSEIF SUM([Sales]) > 15000 THEN "Well Above Benchmark"
+    ELSEIF SUM([Sales]) >= 5000 AND SUM([Sales]) < 10000 THEN "Below Benchmark"
+    ELSE "Well Below Benchmark"
+    END
+
+### CASE/WHEN STATEMENT
+    CASE [Field]
+      WHEN 1 THEN "Red"
+      WHEN 2 THEN "Green"
+      ELSE "Purple"
+    END
