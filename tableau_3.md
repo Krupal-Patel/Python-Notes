@@ -73,6 +73,19 @@ Because a dimension cannot be measured, it is used to create groups.
 
 #### Calculated fields in worksheet
   - All calculated fields can be identified with the equal sign (=) in front of each field's data type (which, in worksheets, is displayed to the left of the field name in the sidebar).
+  - Right-click the field you would like to include in your calculated field → "Create" → "Calculated Field..." This will start you off with the field name that you initially right-clicked in your calculation.
+  - Alternatively, in the top menu bar above the toolbar, select "Analysis" → "Create Calculated Field..." This will start you off with a blank calculation.
 
+#### Aggregate vs. Non-Aggregate Functions in Calculated Fields
+  - Aggregate functions perform calculations on groups of data, while non-aggregate functions perform calculations on individual data points.
 
-
+#### String Functions
+  - Take a moment to read through the descriptions of some common string manipulation functions.
+    String Function | Description
+    |---|---|
+    CONTAINS(string, substring) | Returns "True" if the given string contains the specified substring.
+    LEFT(string, number) | Returns all characters from the left of the specified character.
+    LEN(string) | Returns the length of a string in terms of number of characters.
+    REPLACE(string, substring, replacement) | Searches a string for a specific substring and replaces it with a specified string.
+    RIGHT(string, number) | Returns all characters from the right of the specified character.
+    TRIM(string) | Returns the string with the leading and trailing spaces removed.
