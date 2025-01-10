@@ -63,3 +63,16 @@ Because a dimension cannot be measured, it is used to create groups.
 #### GROUPS
   - Related fields are placed in folders.
   - Related values are placed in groups.
+
+### WORKSHEET CALCULATIONS
+  - Aggregate functions
+  - Calculated fields
+  - String functions
+  - Logic statements
+  - Table calculations
+
+#### Calculated fields in worksheet
+  - All calculated fields can be identified with the equal sign (=) in front of each field's data type (which, in worksheets, is displayed to the left of the field name in the sidebar).
+
+
+
