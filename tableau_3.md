@@ -105,3 +105,10 @@ Because a dimension cannot be measured, it is used to create groups.
       WHEN 2 THEN "Green"
       ELSE "Purple"
     END
+
+#### TABLE CALCULATION
+  - **Table calculations** calculate data based on only what is in a present view after all other calculations have been processed, allowing you to further manipulate data after you have created the visualization.
+  - These types of calculations differ from calculated fields in that they are created and reside specifically within one visualization or view.
+    ## Benefits
+    - The first benefit is that, because you are only running calculations on the subset of data in the present visualization (table calculations do not run on any data that has been filtered out), they tend to be more efficient.
+    - Second, and perhaps most importantly, table calculations show the relationship between the values of a specific field.
