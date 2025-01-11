@@ -50,8 +50,8 @@
 
 The most common numeric formats you will see and edit in Tableau are:
 
-      |Numeric Format | Example |
-      |---|---|
-      |Number | 10|
-      |Currency	| $10.00|
-      |Percentage	| 10.00%|
+  |Numeric Format | Example |
+  |---|---|
+  |Number | 10|
+  |Currency	| $10.00|
+  |Percentage	| 10.00%|
