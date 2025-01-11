@@ -36,4 +36,22 @@
       - Repeat these steps if you would like additional totals.
   - Option 2
       - Click the "Totals" icon in the top toolbar.
-      - Select which option(s) you would like. 
+      - Select which option(s) you would like.
+
+## Table Customization
+    - Edit numeric formatting to ensure clarity of numeric data.
+    - Explore the Marks card to learn how to edit the visual display of data.
+    - Use the Color property from the Marks card to highlight data and insights from a table.
+    - Transform tables into heat maps in order to visually describe numerical data.
+    - Use built-in Tableau formatting to customize the design of tables.
+
+### Numeric Formatting
+  Numeric formatting is a design concept that gives numbers more meaning by changing how they are displayed. Proper numeric formatting is vital to data visualization. If you don't catch formatting errors, your visuals might lead to incorrect conclusions based on errant number formats. Remember, your primary function as a business or data analyst is to find and deliver insights in the most digestible way for each audience.
+
+The most common numeric formats you will see and edit in Tableau are:
+
+      Numeric Format | Example
+      |---|---|
+      Number | 10
+      Currency	| $10.00
+      Percentage	| 10.00%
