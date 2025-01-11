@@ -121,3 +121,31 @@ Because a dimension cannot be measured, it is used to create groups.
     ## Benefits
     - The first benefit is that, because you are only running calculations on the subset of data in the present visualization (table calculations do not run on any data that has been filtered out), they tend to be more efficient.
     - Second, and perhaps most importantly, table calculations show the relationship between the values of a specific field.
+
+
+### Key Takeaways
+  - Calculated fields can be created in both the data source page and in worksheets. 
+  - Calculated fields allow users to use existing data within calculations that can help uncover and visualize new information.
+  - Functions can be classified as either aggregate functions or non-aggregate functions (e.g., string, date, and number functions).
+    - Aggregate functions should be used when you want to perform calculations across multiple rows of data, such as finding the sum or average of an entire field.
+    - Non-aggregate functions should be used when you want to perform calculations on individual data points, such as converting a date field to a specific format or splitting a field.
+  - Aggregation in Tableau means that the field is summarized using mathematical equations such as sum total, median, or average. In other words, it means to "roll up" the data and present it in a summary form using statistical functions known as aggregate functions.
+  - There are two ways to edit the way a field is aggregated:
+    - Edit the worksheet aggregation - This changes how the measure is aggregated on a specific worksheet.
+    - Edit the default aggregation - This changes how the measure is aggregated across the entire workbook.
+  - In Tableau, the IF/THEN logic statement uses Boolean expressions to test a condition logically and then produce a result.
+  - Another logic statement is the CASE/WHEN statement. In most scenarios, these effectively have the same function as IF/THEN statements.       - However, there are a few differences:
+      - IF/THEN statements can handle asking about different fields within each logic statement.
+      - CASE/WHEN statements are limited to checking for equality (=), whereas IF/THEN statements can handle other symbols (=, <, >, <=, and >=).
+    - Generally speaking, CASE/WHEN statements are faster than IF/THEN statements.
+  - Table calculations are similar to calculated fields, but they calculate data based only on what is in a present view after all other calculations have been processed, allowing you to further manipulate data after you have created the visualization.
+  - There are two key benefits to using table calculations:
+    - Because you are only running calculations on the subset of data in the present visualization (table calculations do not run on any data that has been filtered out), they tend to be more efficient.
+    - Perhaps most importantly, table calculations show the relationship between the values of a specific field.
+    - To create a table calculation, you have two options:
+        - Quick table calculations, which are commonly used table calculations that are pre-built into Tableau OR
+Table calculations, which are highly customizable.
+        - The "Table Calculation" interface can be broken into three distinct portions: 
+          1. Use "Calculation Type" to choose which calculations to customize.
+          2. Use "Compute Using" to decide what gets calculated.
+          3. Use "Show Calculation Assistance" to see which portions of the data will be affected.
