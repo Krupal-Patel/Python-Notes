@@ -15,3 +15,25 @@
 ### Filter Views
   - Showing the filter is very easy. Simply right-click the pill for which you want to show the filter and select "Show Filter." Hiding the filter is just as easy — right-click the pill again and deselect "Show Filter."
   - To edit the filter view default format, navigate to the filter that has been displayed on the right side of the worksheet, click on the dropdown arrow, and select "Edit Filter."
+
+### Sorting Data
+  - Sorting is the process of rearranging the order of your dataset with some purposeful sequence, such as largest-to-smallest or A→Z. Sorting makes your data much more digestible and lends itself to helping analysts quickly find patterns.
+    - Ascending Order: Least → Greatest or A→Z
+    - Descending Order: Greatest → Least or Z→A
+  - When sorting multiple fields, the sorts occur from left to right. This means that if you have two fields being sorted in a view, the leftmost field will get sorted first. 
+  - Sort values by clicking the sort icon on the column header
+  - You can select column and then sort values from toolbar too.
+  - If you've applied too many sorts and would like to get back to the original view, you can use the "Clear Sorts" tool from toolbar.
+  
+### Grand Totals and Sub Totals
+  - Option 1
+      - Click the Analytics tab in the sidebar.
+      - Drag Totals to your table. As you drag it over, you'll see three options:
+        - Subtotals
+        - Column Grand Totals
+        - Row Grand Totals
+      - Drop Totals into the option you would like.
+      - Repeat these steps if you would like additional totals.
+  - Option 2
+      - Click the "Totals" icon in the top toolbar.
+      - Select which option(s) you would like. 
