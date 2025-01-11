@@ -112,6 +112,12 @@ Because a dimension cannot be measured, it is used to create groups.
 
     ##### Creating a Table Calculation
     - To create a customized table calculation, right-click on a field and select "Add Table Calculation..."
+   Within this interface, you can customize how a calculation affects the data.
+
+    - The Table Calculation interface can be broken up into three distinct portions, as highlighted below.
+      1. Calculation Type - This is a dropdown menu that lets you choose which of the common calculations you'd like to customize.
+      2. Compute Using - This is a list of all the structures within the table you are editing that you'd like to affect with the table calculation. You can decide what gets calculated and what does not (the "Show calculation assistance" option below allows you to see what is affected).
+      3. Show calculation assistance - This option allows the user to see which portions of the data will be affected by highlighting the affected portion in yellow.
     ## Benefits
     - The first benefit is that, because you are only running calculations on the subset of data in the present visualization (table calculations do not run on any data that has been filtered out), they tend to be more efficient.
     - Second, and perhaps most importantly, table calculations show the relationship between the values of a specific field.
