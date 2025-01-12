@@ -55,3 +55,16 @@ The most common numeric formats you will see and edit in Tableau are:
   |Number | 10|
   |Currency	| $10.00|
   |Percentage	| 10.00%|
+
+### Marks Card
+  - Marks card allows you to control the way data is displayed in Tableau visualizations. For example, in the Marks card, there are several options that can be used to change the color and size of the data. 
+  - Marks card interface is made up of three sections, which all have automatic values set by Tableau when you begin dragging fields into your view, though they are all editable later on:
+
+  The Marks card interface is broken up into three sections. The section labeled "Type" points to a dropdown with a text symbol inside, and it reads "Automatic". 
+  The second section, labeled "Properties", has buttons labeled Color, Size, Text, Detail, and Tooltip. 
+  The third section is labeled "Fields" and has 4 pills: AVG(Discount) with a Color symbol, SUM(Quantity) with a Details symbol, SUM(Sales) with a Details symbol, and AVG(Discount) with a Text symbol.
+
+  - **Mark type** is a dropdown menu that defines the kind of mark displayed. Some common types include Text, Bar, Line, and Map. Note that the use of certain mark types often depends on the types of fields (dimension and/or measures) that are dragged onto the Column and Rows shelves. 
+  - Mark properties control how your data will appear inside your visualization. Note that a single field of data can be applied to multiple mark properties.
+  - Fields that you have added to the Marks card will be displayed at the bottom of the Marks card. This is helpful for keeping track of which fields are being used to manipulate the various mark properties.
+
