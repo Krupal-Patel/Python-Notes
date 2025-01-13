@@ -67,4 +67,36 @@ The most common numeric formats you will see and edit in Tableau are:
   - **Mark type** is a dropdown menu that defines the kind of mark displayed. Some common types include Text, Bar, Line, and Map. Note that the use of certain mark types often depends on the types of fields (dimension and/or measures) that are dragged onto the Column and Rows shelves. 
   - Mark properties control how your data will appear inside your visualization. Note that a single field of data can be applied to multiple mark properties.
   - Fields that you have added to the Marks card will be displayed at the bottom of the Marks card. This is helpful for keeping track of which fields are being used to manipulate the various mark properties.
+  - In the same way that Tableau automatically assigns data types to each field in a data source, Tableau also automatically decides which mark would best represent a field as it is added to a table.
 
+
+## Data Visualization
+
+  - Your goal as a data viz analyst is to capitalize on the human brain by creating clear visualizations. The fastest way of getting visual information into a human brain is by optimizing the visual for preattentive processing.
+  - Preattentive attributes of visual perception that are used to simplify the process of understanding insights include the following:
+    - Color
+    - Form
+    - Movement
+  - Foundational data visualizations used in Tableau include the following:
+    - Bar graphs: Used to present categorical data
+    - Line graphs: Used to show a continuous set of data points in a connected series
+    - Scatter plots: Used to compare the effects of two different numeric fields
+  - Tufte's data visualization guidelines include the following:
+    - Remove clutter
+    - Don't use pie charts
+    - Use tables to visually represent small datasets
+    - Communicate insights with clarity, precision, and efficiency
+    - Avoid distortion
+    - Limit your color palette
+    - Guide the viewer to the intended conclusions
+  - Gestalt theory can be broken down into six design principles:
+    - Figure-ground: The thought that when we look at a scene, we separate objects so that some of the focus is on the figure (front) and other parts recede to the back, known as the ground.
+    - Similarity: The notion that we place objects with similar characteristics in a group. These characteristics can include color, size, font, shape, texture, and more.
+    - Proximity: The belief that we group together objects that are close to each other.
+    - Closure: The idea that our minds close objects that are not necessarily together or complete to create a whole.
+    - Continuity: The theory that we continue to follow objects that are visually aligned until they are interrupted.
+    - Order: The belief that alignment and symmetry are attractive and essential elements of design.
+  - The first significant implementation of the design principles in data visualization begins with labeling, which includes the following:
+    - Titles: Used to describe the data visualization
+    - Axis labels: Used to describe the field information within the rows and columns
+    - Captions: Used to succinctly describe the visualization (optional)
