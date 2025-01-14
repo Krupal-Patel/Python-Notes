@@ -150,3 +150,59 @@ The most common numeric formats you will see and edit in Tableau are:
           - R-Squared is used to show the amount of variance that the trend line explains and is displayed as a number from 0 to 1.
           - Variance is the measure that calculates how far each number in the dataset is from the mean. Variance is useful to see how spread a dataset is.
       3. The third is the p-value. The P-value is used to show the probability of obtaining the desired result and is also displayed as a number between 0 and 1. 
+
+
+## Statistical Charts
+  - **Histograms**
+    - A histogram is a statistical bar chart that is used to show the distribution of numerical data. Histograms are univariate visualizations, meaning they only plot one numerical field. This allows you to see the frequency of occurrences within the field, which helps you understand the probability of data within that numerical field.
+    - Creating a Histogram creats a new dimension.
+   
+    - Manual Creation of Histogram
+        1. Create a new field by right-clicking on the Quantity measure and clicking "Create" → "Bins..."
+        2. Set the size of the bins to 2.
+        3. Exit the "Edit Bins" menu by clicking the "X" in the top-right corner.
+        4. Since these bins should sit along the x-axis, drag the newly created Quantity (bin) field to the Columns shelf.
+        5. Since the quantity shows up along the y-axis, add the Quantity field to the Rows shelf.
+        6. By default, the Quantity is aggregated using the SUM function. You will want a count of the quantities, so right-click the SUM(Quantity) pill in the Rows shelf and select "Measure" → "Count."
+        7. Almost there! To remove the gaps between the vertical bars, convert the Quantity (bin) dimension from discrete to continuous by right-clicking the Quantity (bin) pill in the Columns shelf and selecting "Continuous."
+   
+  - **Box Plots**
+    - Box plots, also known as box-and-whisker plots, are visualizations that show a statistical summary of selected data. The statistical summary is made up of five pieces: the data's minimum, maximum, median, first quartile, and third quartile values.
+   
+
+
+
+## Recape of Charts
+**Comparison Charts**
+  - **Comparison charts:** Graphical representations that allow for the visual comparison of data points, values, or categories.
+  - **Bar chart:** A graph that presents data with either horizontal or vertical rectangular bars.
+  - **Treemap:** A type of visualization that is used to display the value of data using both size and color.
+**Predictive Charts**
+  - **Predictive charts:** A category of data visualizations used to reveal trends in the data allowing the analyst to hypothesize whether a similar pattern may be followed in the future.
+  - **Line graphs:** Data visualizations used to show the differences between variables by using a continuous line.
+  - **Time series plots:** Line graphs that are used to track a measure over time.
+  - **Scatter plot:** A data visualization used to show the relationship between two variables.
+    - **Correlation:** The relationship between variables. Correlation does not imply causation.
+      - **Independent Variable:** The variable that you believe may influence or explain changes in the dependent variable.
+      - **Dependent Variable:** The variable you're trying to predict, explain, or understand based on changes in the independent variable(s).
+    - **Trend lines:** Lines created using statistical functions to help you confirm trends exist. 
+      - **Linear trend line:** A straight line that best fits a set of data points in a way that represents a linear trend in the data. 
+      - **R-squared:** Used to show the amount of variance that the trend line explains — displayed as a number from 0 to 1.
+      - **Variance:** The measure that calculates how far each number in the dataset is from the mean.
+      - **P-value:** Used to show the probability of obtaining the desired result — shown as a number between 0 and 1.
+
+**Statistical Charts**
+  - **Statistical charts:**  Visual representations of data used to display and communicate various types of information, trends, and relationships. 
+  - **Histogram:** A statistical bar chart that is used to show the distribution of numerical data.
+    - **Bins:** A consistent value range that data is sorted into to form groups.
+    - **Skewness:** The measure of symmetry or asymmetry of a distribution. Skewness describes if the curve is a symmetrical bell or if the data is bunched more to one side.
+
+  - **Box plots:** Also known as box-and-whisker plots, they are visualizations that show a statistical five-number summary of the selected data. The statistical summary includes the minimum, maximum, median, first quartile, and third quartile. 
+    - **Minimum:** The smallest value within your dataset.
+    - **Maximum:** The largest value in your dataset.
+    - **Median:** The middle value within your dataset. The median is also known as the second quartile (Q2). It separates the first 50% of your data from the second 50%.
+    - **Quartiles:** Numbers that divide the values in your dataset, when put into a list from least to greatest, into four equal quarters.
+    - **First quartile (Q1):** The value that separates the first 25% of your dataset from the next 25%. The first quartile can be found by finding the middle value between your minimum and median values.
+    - **Third quartile (Q3):** The value that separates the last 25% of your dataset, from the second to last quarter. The third quartile can be found by finding the middle value between the median and the maximum values.
+    - **Interquartile range (IQR):** The middle 50% of your data set. The IQR includes any values that fall between Q1 and Q3. 
+    - **Whiskers:** Lines that go from each quartile to the minimum or maximum.
