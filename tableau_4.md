@@ -103,3 +103,33 @@ The most common numeric formats you will see and edit in Tableau are:
 
 ## SHOW ME
   - The Show Me menu is a resource Tableau provides to help you build common data visualizations. The menu tells you exactly how many dimensions and measures are required to create frequently used data visualizations. As a reminder, a dimension is a categorical field that is not usually numeric, and a measure is a numeric data type that can be mathematically manipulated. This tool is a quick way to start building visualizations by clearing up any guesswork.
+
+
+# Comparison Chart
+  - **Bar Chart**
+      - A bar chart is used to compare categories or groups of data using horizontal or vertical rectangular bars with a height or length proportional to the values each bar represents.
+  - **Treemaps**
+      - A treemap visualization is used to compare categorical data using both size and color to display the numerical value. Bar charts use length to compare values, whereas treemaps use length and width (area) to compare values.
+
+# Predictive Chart
+  - Predictive charts are a category of data visualizations used to reveal trends in the data, allowing analysts to hypothesize whether a similar pattern may be followed in the future.
+
+  - **Line Graph**
+      - A line graph is used to show the change of a measure — or measures over time — using a continuous line. Because line graphs are used to track a measure over time, they are also known as time series plots.
+
+  - **Scatter Plot**
+      - A scatter plot is a data visualization used to show the relationship between two variables, or how they correlate. Correlation is the relationship between variables. It is important to remember that just because one variable seems to affect another, that doesn't mean one caused the other.
+      - When working with scatter plots, you'll often hear the terms independent variable and dependent variable.
+        Independent Variable: In data analytics, the independent variable is the variable that you believe may influence or explain changes in the dependent variable.
+        Dependent Variable: The dependent variable in data analytics is the variable you're trying to predict, explain, or understand based on changes in the independent variable(s).
+
+      - **When presenting data, only use a trend line if your R-squared is high:** Trend lines can mislead the audience into thinking there is a trend when there is not. Generally, you don't want to use a trend line in a scatter plot presentation unless there is an R-squared value of 0.6-0.8 or higher.
+      - **Use trend lines if there is added value:** Trend lines condense all the points into something often more meaningful for audiences, and you should always use these to check for correlations — however, only keep them in your viz if they add value.
+   
+## Trend Lines
+  - There are five types of trend lines you can create in Tableau.
+      1. Linear
+      2. Logarithmic
+      3. Exponential
+      4. Polynomial
+      5. Power
