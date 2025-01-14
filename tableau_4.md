@@ -133,3 +133,20 @@ The most common numeric formats you will see and edit in Tableau are:
       3. Exponential
       4. Polynomial
       5. Power
+  - How to Create a Trend Line
+      You can add a trend line by navigating to the Analytics tab and dragging "Trend Line" to the data visualizer over the "Linear" option that appears
+
+      - **Watch out for outliers:** Outliers can skew your trend lines into giving non-realistic results. Watch out for outliers and the effect they have on the visualization.
+      - **Avoid overusing trend lines:** Trend lines are not intended to be added to every visualization. Use them sparingly to add value to the story you are attempting to convey.
+      - **Avoid using a trend line for small datasets:** The value of a trend line is the ability to aggregate large amounts of data into a predictable line. Trend lines are not as useful for tiny datasets.
+
+
+  - The tooltip for the trend line contains statistically calculated numbers that help you diagnose if there actually is a correlation. Take a minute to examine the trend lines tooltip before moving on to learn about what each piece means.
+
+  - There are three lines of text in the tooltip:
+
+      1. The first is the equation of the trend line.
+      2. The second is the R-squared value.
+          - R-Squared is used to show the amount of variance that the trend line explains and is displayed as a number from 0 to 1.
+          - Variance is the measure that calculates how far each number in the dataset is from the mean. Variance is useful to see how spread a dataset is.
+      3. The third is the p-value. The P-value is used to show the probability of obtaining the desired result and is also displayed as a number between 0 and 1. 
