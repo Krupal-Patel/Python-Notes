@@ -100,3 +100,6 @@ The most common numeric formats you will see and edit in Tableau are:
     - Titles: Used to describe the data visualization
     - Axis labels: Used to describe the field information within the rows and columns
     - Captions: Used to succinctly describe the visualization (optional)
+
+## SHOW ME
+  - The Show Me menu is a resource Tableau provides to help you build common data visualizations. The menu tells you exactly how many dimensions and measures are required to create frequently used data visualizations. As a reminder, a dimension is a categorical field that is not usually numeric, and a measure is a numeric data type that can be mathematically manipulated. This tool is a quick way to start building visualizations by clearing up any guesswork.
