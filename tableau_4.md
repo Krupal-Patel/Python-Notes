@@ -206,3 +206,23 @@ The most common numeric formats you will see and edit in Tableau are:
     - **Third quartile (Q3):** The value that separates the last 25% of your dataset, from the second to last quarter. The third quartile can be found by finding the middle value between the median and the maximum values.
     - **Interquartile range (IQR):** The middle 50% of your data set. The IQR includes any values that fall between Q1 and Q3. 
     - **Whiskers:** Lines that go from each quartile to the minimum or maximum.
+
+## Maps
+  - Maps are simple to create as long as the data is recognized as geographical data by Tableau.
+  - For maps try: 1 geo Dimension, 0 or more Dimensions, 0 or 1 Measure. May use spatial measure in place of geo dimension.
+  - How to Add or Remove Map Layers
+      To add or remove layers, go to the Map option in the top toolbar dropdown in the menu bar and select "Background Layers..." From there, you can choose which map layers you'd like to include (or not include)
+
+  ## Custom Territories
+    - In Tableau, this conversion is fairly easy to accomplish. To do so, you would right-click the Region field and then select "Geographic Role" → "Create from" → "State" as shown in the following image. By doing this, you are creating groups of States in each Region, turning the Region field into a geographic field. Note that Tableau will automatically rename this field Region, State.
+
+     - If you were to drag the new geographic field (Region, State) onto the data visualizer, you would see a "symbol map." To convert that to a standard map, you could take a couple of actions:
+      1. In the Marks card, drag the Region pill to the Color property.
+      2. Change the mark type from Automatic to Map.
+    - Take note that when Region is added to the Label property, you see the region name, and when Profit is added to the Label property, the aggregated profit (by SUM) is displayed.
+
+### Create dual axis map
+  - To create a dual-axis map, you first need to create two maps on the same worksheet. Start by creating a single map, and then drag a second Latitude field onto the Rows shelf. This will create a duplicate map underneath the original.
+  - Once you modify second map, the maps can be stacked by right-clicking on the second Latitude pill in the Rows shelf and selecting "Dual Axis".
+
+    
