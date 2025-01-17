@@ -27,3 +27,34 @@
     
   - Social media mentions about our brand have spiked after a recent advertising campaign.
     - Insight: Social media mentions about our brand have spiked after a recent advertising campaign, so we should monitor sentiment and engagement to assess its impact on brand perception.
+   
+  ## Tooltips and Annotations
+  - The interactive box that appears when you hover over a data visualization is called a tooltip, and it is used to help describe information within your visual.
+  - Tableau automatically creates tooltips — however, you can edit them to fit your presentation's needs by clicking Tooltip in marks card.
+
+
+  ### Embed Visualizations in Tooltips
+    - Embedding visualizations in tooltips means that when you hover over a portion of the visual, you see additional information in the form of another visualization.
+    - To embed a visualization, take these steps:
+        1. Open the Tooltip menu.
+        2. Select "Insert" → "Sheets."
+        3. Then choose the sheet you'd like to embed.
+
+  ### Annotations
+    - An annotation is a comment added to any visualization to describe a notable portion of the visual. Annotations are static tooltips that are part of the visualization — the audience is not able to interact with them.
+    - There are three types of annotations, which are used to highlight different portions of the visualization.
+
+        1. Mark: Annotates existing marks in the visualization. For example, when you hover over the visualization, you'll see circles appear. Using the Mark option will point to one of the circles.
+        2. Point: Annotates exactly where you click. This means that the accuracy of the location you are highlighting is dependent on your ability to get close with your mouse.
+        3. Area: Annotates the entire visualization. This type of annotation doesn't point anywhere — it merely creates a text box for you to place on top of the visual.
+
+    - Suppose the sales team is trying to increase profit and would like to know more about the past performance of the Superstore. They are specifically interested in knowing more about the most profitable month.
+
+      - To add an annotation to the most profitable month, take these steps:
+      
+        1. Right-click on the most profitable month in the visual.
+        2. Select the Annotate menu.
+        3. Select the annotation type. In this case, Mark.
+        4. Add any relevant information that you would like to be included.
+        5. Press "OK" when you're finished.
+        6. Resize/reposition the annotation to make sure it's not covering any important information. To do this, first single-click on the annotation to put it into edit mode.
