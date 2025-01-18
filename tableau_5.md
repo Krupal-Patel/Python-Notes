@@ -58,3 +58,28 @@
         4. Add any relevant information that you would like to be included.
         5. Press "OK" when you're finished.
         6. Resize/reposition the annotation to make sure it's not covering any important information. To do this, first single-click on the annotation to put it into edit mode.
+
+## DASHBOARDS
+  - A Tableau dashboard is a consolidated display of many worksheets and related information in a single place.
+  - Tableau dashboards, also referred to as the **"core of Tableau,"** are used to compare and view a variety of data simultaneously.
+  - How did Tableau Dashboards get named the "core of Tableau"? For starters, many of the more traditional data visualization tools do not have this functionality built into their platform. If they do, it's either complicated to replicate or the analyst is expected to know how to code to produce a similar outcome. Tableau allows you to create dashboards with the same drag-and-drop functionality you've been using thus far in this course. This gives you more time to focus on producing insights and preparing content for stakeholders, as opposed to getting stuck trying to figure out the technicalities of the tool.
+
+### Interactive Dashboards
+  - To build an interactive dashboard, you would need to add a dashboard action. Start with a static dashboard, then access the dashboard action menu. Go to the top menu bar, click "Dashboard" → "Actions..." → select "Add Action" and examine the six different types of actions.
+      - Filter: Uses the data from one view to filter data in another view.
+      - Highlight: Calls attention to marks of interest by coloring specific marks and dimming all others.
+      - Go to URL: Creates hyperlinks to external resources, such as a web page, file, or another Tableau worksheet.
+      - Go to Sheet: Simplifies navigation to other worksheets, dashboards, or stories.
+      - Change Parameter: Users can change parameter values by directly interacting with marks on a viz.
+      - Change Set Values: Users can change the values in a set by directly interacting with marks on a viz.
+
+    - Dashboards are made up of a series of visualizations that, when combined, are greater than any single visual on its own.
+    - The Dashboard tab is made up of three sections: Device Designer, Sheets, and Objects.
+    - Device Designer: Allows you to customize the views of a dashboard.
+        Sheets: Allows you to combine visuals with ease.
+        Objects: Allows you to add unique features to dashboards and integrate them with other applications.
+    - As a data visualization expert, it is your job to make visualizations and dashboards as user-friendly as possible. No matter what background your end user has, they should be able to interact with your dashboards to find insights.
+    - The three most commonly used dashboard actions are Filter, Highlight, and Go To URL. Other options are Go To Sheet, Change Parameter, and Change Set Values.
+    - The Source Sheets portion of the Action interface can be found on all six types of actions. It includes three settings: Hover, Select, and Menu. The interactive setting Select is the recommended setting for dashboard actions because Hover can be challenging to control and Menu takes too many clicks.
+    - The Filter action interface enables you to filter an entire dashboard with one click. This interface can be divided into two parts: Target Sheets and Target Filters. Within Target Sheets, there are three options for how to filter data: Leave the filter, Show all values, and Exclude all values.
+        
