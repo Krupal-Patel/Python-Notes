@@ -82,4 +82,7 @@
     - The three most commonly used dashboard actions are Filter, Highlight, and Go To URL. Other options are Go To Sheet, Change Parameter, and Change Set Values.
     - The Source Sheets portion of the Action interface can be found on all six types of actions. It includes three settings: Hover, Select, and Menu. The interactive setting Select is the recommended setting for dashboard actions because Hover can be challenging to control and Menu takes too many clicks.
     - The Filter action interface enables you to filter an entire dashboard with one click. This interface can be divided into two parts: Target Sheets and Target Filters. Within Target Sheets, there are three options for how to filter data: Leave the filter, Show all values, and Exclude all values.
-        
+
+## Tableau Stories
+**_One skill that can truly set you apart as an analyst is effective storytelling. No matter how impressive your analysis is or how high-quality your data is, you're not going to compel change unless your stakeholders understand the narrative you're trying to communicate — your story. When you tell a story, people are more likely to engage with what you're saying._**
+t
