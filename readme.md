@@ -10,3 +10,4 @@
   - [Table Organization](./tableau_3.md)
   - [Data Visulization](./tableau_4.md)
   - [Insights, Dashboards and Stories](./tableau_5.md)
+  - [Advance Data Visulization](./tableau_6.md)
