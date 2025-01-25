@@ -45,14 +45,14 @@
 - A candlestick chart is made up of two overlaying, vertically staggered bars for each time interval used in the data visualization. In the following candlestick chart, each bar represents a day.
 
 #### Build High Low Chart
--   Since the candlestick chart is a dual-axis chart, and since the high/low bars sit behind the open/close bars, you will build the high/low chart first.
+Since the candlestick chart is a dual-axis chart, and since the high/low bars sit behind the open/close bars, you will build the high/low chart first.
 
-        - Drag the Date dimension onto the Columns shelf and convert the time interval for Date to continuous "Day."
-        - Drag the Low measure onto the Rows shelf. (Low is being used as a starting point. In a moment, you'll be incorporating the High measure to give the bars the appropriate heights.)
-        - Convert the mark type from Line to Gantt Bar.
-        - To size the bars accordingly, you will need to know the difference between the high and low prices for the day. Create a calculated field called High Low Range, which will be [High] - [Low].
-        - Drag High Low Range to the Size property in the Marks card.
-        - Since the bars are all sitting toward the top, take a moment to examine the highest value and the lowest value and adjust the y-axis accordingly to make the most of the space available. In this case, you can set the y-axis to range from 66 to 75.
+    - Drag the Date dimension onto the Columns shelf and convert the time interval for Date to continuous "Day."
+    - Drag the Low measure onto the Rows shelf. (Low is being used as a starting point. In a moment, you'll be incorporating the High measure to give the bars the appropriate heights.)
+    - Convert the mark type from Line to Gantt Bar.
+    - To size the bars accordingly, you will need to know the difference between the high and low prices for the day. Create a calculated field called High Low Range, which will be [High] - [Low].
+    - Drag High Low Range to the Size property in the Marks card.
+    - Since the bars are all sitting toward the top, take a moment to examine the highest value and the lowest value and adjust the y-axis accordingly to make the most of the space available. In this case, you can set the y-axis to range from 66 to 75.
 
 #### Add the Open/Close Chart
 
