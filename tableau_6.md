@@ -74,3 +74,7 @@ Since the candlestick chart is a dual-axis chart, and since the high/low bars si
         END
     - Drag the Color calculated field to the Color property in the SUM(Open) Marks card.
     - In the SUM(Open) Marks card, adjust the colors, so that "Green" is green and "Red" is red.
+
+#### Bar in Bar Chart
+
+
