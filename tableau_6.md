@@ -38,3 +38,39 @@
       8. Once the sort dialog box appears, choose to sort by "Field."
       9. Specify that you want the sort in ascending order by the field Start Date.
       10. Set the aggregation to "Minimum."
+
+## Candle Stick Chart
+- A candlestick chart is a dual-axis visualization used to analyze financial markets. Candlestick charts reveal patterns within the data that show how the emotions of traders affect price movements. This means that candlestick charts show the common repeating patterns that occur as a result of human emotion. Financial market analysts can use this information to predict the future, increasing the likelihood of making profitable company decisions. 
+
+- A candlestick chart is made up of two overlaying, vertically staggered bars for each time interval used in the data visualization. In the following candlestick chart, each bar represents a day.
+
+#### Build High Low Chart
+-   Since the candlestick chart is a dual-axis chart, and since the high/low bars sit behind the open/close bars, you will build the high/low chart first.
+
+        - Drag the Date dimension onto the Columns shelf and convert the time interval for Date to continuous "Day."
+        - Drag the Low measure onto the Rows shelf. (Low is being used as a starting point. In a moment, you'll be incorporating the High measure to give the bars the appropriate heights.)
+        - Convert the mark type from Line to Gantt Bar.
+        - To size the bars accordingly, you will need to know the difference between the high and low prices for the day. Create a calculated field called High Low Range, which will be [High] - [Low].
+        - Drag High Low Range to the Size property in the Marks card.
+        - Since the bars are all sitting toward the top, take a moment to examine the highest value and the lowest value and adjust the y-axis accordingly to make the most of the space available. In this case, you can set the y-axis to range from 66 to 75.
+
+#### Add the Open/Close Chart
+
+    - Drag Open to the Rows shelf as a starting point. (Similar to the process earlier, you'll be giving this height in a moment by incorporating the Close value.)
+    - Right-click on the Sum(Open) measure in the Rows shelf and select "Dual Axis."
+    - Next, you'll want to synchronize the left and right y-axes, so right-click on the right axis, and select "Synchronize Axis."
+    - Create a calculated field called Open Close Range with the formula [Close] - [Open], which will be used in a moment to give the bars the appropriate heights.
+    - Drag Open Close Range to the Size property in the Marks card.
+
+#### Adjust the Sizes
+    - In the SUM(Low) Marks card, change the size to 25%.
+    - In the SUM(Open) Marks card, change the size to 50%.
+
+#### Adjust the Colors
+    - In the SUM(Low) Marks card, change the Low color to gray.
+    - Since the open/close bars are not going to be a single color like the high/low bars, you'll need to create a calculated field to determine the color. Create a calculated field called Color with the following formula:
+        IF [Close] >= [Open] THEN "Green"
+        ELSE "Red"
+        END
+    - Drag the Color calculated field to the Color property in the SUM(Open) Marks card.
+    - In the SUM(Open) Marks card, adjust the colors, so that "Green" is green and "Red" is red.
