@@ -19,4 +19,4 @@
     2. Data blending
 
 
-[The Tableau Performance Optimization Flowchart](./https://interworks.com/blog/2018/05/16/the-tableau-performance-optimization-flowchart/)
+[The Tableau Performance Optimization Flowchart](https://interworks.com/blog/2018/05/16/the-tableau-performance-optimization-flowchart/)
