@@ -10,3 +10,10 @@
       Custom: Creates certain statistical measures and views based on the parameters you define — these parameters can be related to either the actual computation or styling.
   - There are three types of scopes in Tableau: Table, Pane, and Cell.
   - When viewing forecasted data, it is important to remember that the line in the center of the forecast represents the true forecasted data and the shaded portion around the line represents the prediction interval. 
+
+
+# Multiple Datasource
+
+- Two methods for combining data sources in Tableau include:
+    1. Cross-database joins
+    2. Data blending
