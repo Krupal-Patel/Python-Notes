@@ -17,3 +17,6 @@
 - Two methods for combining data sources in Tableau include:
     1. Cross-database joins
     2. Data blending
+
+
+The Tableau Performance Optimization Flowchart ./[https://interworks.com/blog/2018/05/16/the-tableau-performance-optimization-flowchart/]
