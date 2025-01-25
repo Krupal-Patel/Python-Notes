@@ -20,3 +20,5 @@
 
 
 [The Tableau Performance Optimization Flowchart](https://interworks.com/blog/2018/05/16/the-tableau-performance-optimization-flowchart/)
+
+[Tableau Performance Checkllist](https://interworks.com/blog/bfair/2015/02/23/tableau-performance-checklist)
