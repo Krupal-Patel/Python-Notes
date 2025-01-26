@@ -12,3 +12,5 @@
   - [Insights, Dashboards and Stories](./tableau_5.md)
   - [Advance Data Visulization](./tableau_6.md)
   - [Analytics](./tableau_7.md)
+  - [Tableau Learning Resources](https://learningtableau.com/)
+  - [Practice Questions](https://learningtableau.com/specialist-practice-questions/)
