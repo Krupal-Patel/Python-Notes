@@ -1,11 +1,11 @@
-## Explain Tensorflow to five year old
+# Explain Tensorflow to five year old
 - Imagine you have a big box of LEGO bricks, and you want to build something super cool, like a spaceship! But building it by hand takes a long time because you have to figure out where every piece goes all by yourself.
 
 - Now, imagine you have a super-smart robot friend who loves to help. You tell the robot, "Hey, I want a spaceship!" and it quickly learns how to put the LEGO bricks together by looking at pictures of spaceships. It starts figuring out patterns—like how the wings go on or where the windows fit—and soon, it can build spaceships for you really fast!
 
 - TensorFlow is like that robot friend, but for computers : **It’s a special tool that helps computers learn things by looking at lots of examples—like pictures, numbers, or words. People use it to teach computers to do fun stuff, like recognizing your voice, spotting cats in photos, or even helping doctors figure out if someone is sick. It’s like giving the computer a brain to solve puzzles with you!** 
 
-## Tensorflow History
+# Tensorflow History
 - 2011: TensorFlow’s roots begin with DistBelief, an internal Google project by the Brain Team for neural network research.
 - Early 2010s: DistBelief powers Google’s speech recognition and image classification but lacks flexibility for new experiments.
 - 2015: Google rebuilds it into TensorFlow, a more versatile framework, and releases it publicly on November 9 under Apache 2.0.
@@ -20,7 +20,7 @@
 
 Determining the exact "top ten deep learning frameworks" and their precise usage percentages as of March 9, 2025, is challenging due to the lack of comprehensive, real-time public data. Usage percentages fluctuate based on community adoption, industry trends, and project demands, with no single authoritative source providing daily updates. However, this list reflects the most prominent deep learning frameworks currently in use, based on their established popularity, community activity, and industry adoption trends (up to early 2025). Approximate usage percentages are estimated by synthesizing insights from developer surveys, GitHub activity, academic citations, and industry reports, with slight extrapolation for 2025. These figures are educated approximations, not exact values—consider them a snapshot of relative prominence.
 
-## Frameworks
+# Frameworks
 
 1. **TensorFlow**
    - **Description**: Google’s open-source powerhouse, known for scalability and production-ready tools.
