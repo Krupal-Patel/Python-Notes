@@ -106,3 +106,15 @@ TensorFlow and OpenCV are powerful tools in the tech world, but they serve diffe
 
 ## In a Nutshell
 TensorFlow is your AI brain—training models to think and predict—while OpenCV is your vision toolkit—processing and understanding images fast. They’re complementary: OpenCV can prep data for TensorFlow, or TensorFlow can enhance OpenCV’s output with learned intelligence. For example, OpenCV might detect faces in a video, and TensorFlow could identify who they are. Pick TensorFlow for learning, OpenCV for seeing—or use both for a full-stack vision AI solution!
+
+
+```markdown
+# Traditional Programming vs. Machine Learning
+
+**Traditional Programming: Rules + Data = Answers**  
+In traditional programming, you write explicit rules (e.g., logic, algorithms like `if x > 10`) and combine them with data (e.g., numbers, images) to produce answers. Example: A rule like "if edges detected, highlight them" in OpenCV processes an image to output edges. It’s fast, predictable, and ideal for well-defined tasks, but struggles when rules are complex or unknown (e.g., recognizing speech).
+
+**Machine Learning: Data + Answers = Rules**  
+Machine learning (e.g., TensorFlow) reverses this. You provide data and answers (e.g., labeled photos: "cat," "not cat"), and the system learns the rules (model) automatically. Example: TensorFlow trains on cat images to detect cats without manual rules. It excels at fuzzy, data-rich problems but requires significant data and compute power.
+
+**Key Difference**: Traditional programming needs you to define the logic upfront; machine learning discovers it from examples.
