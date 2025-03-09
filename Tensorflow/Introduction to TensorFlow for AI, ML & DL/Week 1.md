@@ -108,7 +108,6 @@ TensorFlow and OpenCV are powerful tools in the tech world, but they serve diffe
 TensorFlow is your AI brain—training models to think and predict—while OpenCV is your vision toolkit—processing and understanding images fast. They’re complementary: OpenCV can prep data for TensorFlow, or TensorFlow can enhance OpenCV’s output with learned intelligence. For example, OpenCV might detect faces in a video, and TensorFlow could identify who they are. Pick TensorFlow for learning, OpenCV for seeing—or use both for a full-stack vision AI solution!
 
 
-```markdown
 # Traditional Programming vs. Machine Learning
 
 **Traditional Programming: Rules + Data = Answers**  
