@@ -4,13 +4,13 @@
 
 
 ### Tableau Notes
-  - [Introduction to Tableau](./tableau_1.md)
-  - [Preprocessing Data](./tableau_2.md)
-  - [Tableau Worksheets](./tableau_3.md)
-  - [Table Organization](./tableau_3.md)
-  - [Data Visulization](./tableau_4.md)
-  - [Insights, Dashboards and Stories](./tableau_5.md)
-  - [Advance Data Visulization](./tableau_6.md)
-  - [Analytics](./tableau_7.md)
+  - [Introduction to Tableau](./Tableau/tableau_1.md)
+  - [Preprocessing Data](./Tableau/tableau_2.md)
+  - [Tableau Worksheets](./Tableau/tableau_3.md)
+  - [Table Organization](./Tableau/tableau_3.md)
+  - [Data Visulization](./Tableau/tableau_4.md)
+  - [Insights, Dashboards and Stories](./Tableau/tableau_5.md)
+  - [Advance Data Visulization](./Tableau/tableau_6.md)
+  - [Analytics](./Tableau/tableau_7.md)
   - [Tableau Learning Resources](https://learningtableau.com/)
   - [Practice Questions](https://learningtableau.com/specialist-practice-questions/)
