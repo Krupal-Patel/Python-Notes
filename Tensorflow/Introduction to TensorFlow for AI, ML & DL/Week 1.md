@@ -3,7 +3,7 @@
 
 - Now, imagine you have a super-smart robot friend who loves to help. You tell the robot, "Hey, I want a spaceship!" and it quickly learns how to put the LEGO bricks together by looking at pictures of spaceships. It starts figuring out patterns—like how the wings go on or where the windows fit—and soon, it can build spaceships for you really fast!
 
-- TensorFlow is like that robot friend, but for computers : */It’s a special tool that helps computers learn things by looking at lots of examples—like pictures, numbers, or words. People use it to teach computers to do fun stuff, like recognizing your voice, spotting cats in photos, or even helping doctors figure out if someone is sick. It’s like giving the computer a brain to solve puzzles with you!/*
+- TensorFlow is like that robot friend, but for computers : ** It’s a special tool that helps computers learn things by looking at lots of examples—like pictures, numbers, or words. People use it to teach computers to do fun stuff, like recognizing your voice, spotting cats in photos, or even helping doctors figure out if someone is sick. It’s like giving the computer a brain to solve puzzles with you! **
 
 
 
