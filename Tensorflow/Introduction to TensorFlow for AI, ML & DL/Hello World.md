@@ -1,11 +1,3 @@
-# Simple TensorFlow Model: Learning y = 2x - 1
-
-This guide walks through a basic TensorFlow script that trains a model to learn a straight-line relationship (y = 2x - 1) from data. We’ll explain the code line-by-line to show how it works.
-
-## The Code
-
-Here’s the full script we’ll break down:
-
 ```python
 import tensorflow as tf
 import numpy as np
@@ -30,6 +22,15 @@ model.fit(xs, ys, epochs=500)
 
 # Make a prediction
 print(f"model predicted: {model.predict(np.array([10.0]), verbose=0).item():.5f}")
+```
+
+# Simple TensorFlow Model: Learning y = 2x - 1
+
+This guide walks through a basic TensorFlow script that trains a model to learn a straight-line relationship (y = 2x - 1) from data. We’ll explain the code line-by-line to show how it works.
+
+## The Code
+
+Here’s the full script we’ll break down:
 
 # Simple TensorFlow Model: Explanation
 
