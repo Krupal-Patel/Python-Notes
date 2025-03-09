@@ -45,3 +45,51 @@ Below are five of the most popular loss functions in TensorFlow, with simple exa
 - **Sparse Categorical CE**: “Which number, same deal?” (e.g., animal IDs).
 
 These loss functions fit different problems—numbers or categories—and TensorFlow uses them to guide the model toward better predictions.
+
+# Understanding Optimizers in Machine Learning
+
+An optimizer is like a coach for your machine learning model. It looks at the loss (how wrong the guesses are) and adjusts the model’s settings—called **weights**—to improve predictions over time. Think of tuning a guitar: the loss shows how off-key it is, and the optimizer tweaks the strings until it’s perfect.
+
+- **Why It Matters**: Without an optimizer, the model wouldn’t get better—it’d keep guessing wrong.
+- **How It’s Used**: TensorFlow uses the optimizer to lower the loss by changing weights step-by-step during training.
+
+Below are five of the most popular optimizers in TensorFlow, with simple examples.
+
+## 1. Stochastic Gradient Descent (SGD)
+- **What It Does**: Moves weights in small steps based on the loss’s slope (gradient). Basic but reliable.
+- **Simple Terms**: Like walking downhill one step at a time—slow but steady.
+- **Example**: Loss says “too high” (guessed 200 lbs, real is 150 lbs). SGD nudges it to 190 lbs, then checks again.
+- **TensorFlow**: `tf.keras.optimizers.SGD()`
+
+## 2. Adam (Adaptive Moment Estimation)
+- **What It Does**: Combines momentum (speeding up) and RMSProp (adjusting step size) for faster, smarter tweaks.
+- **Simple Terms**: Like a smart GPS—finds the fastest route downhill, adjusting speed as needed.
+- **Example**: Guessed 80°F, real temp is 70°F. Adam shifts to 75°F quick, then fine-tunes to 70°F.
+- **TensorFlow**: `tf.keras.optimizers.Adam()`
+
+## 3. RMSProp (Root Mean Square Propagation)
+- **What It Does**: Adjusts step sizes based on recent gradients, good for bumpy loss landscapes.
+- **Simple Terms**: Like a hiker slowing on steep bits, speeding on flat parts.
+- **Example**: Guessed $500 rent, real is $600. RMSProp jumps to $550, then fine-tunes to $600.
+- **TensorFlow**: `tf.keras.optimizers.RMSprop()`
+
+## 4. Adagrad (Adaptive Gradient)
+- **What It Does**: Adapts learning rate for each weight, shrinking steps as it learns. Great for sparse data.
+- **Simple Terms**: Like learning to ride a bike—big moves at first, tiny ones once steady.
+- **Example**: Guessed 10 apples, real is 12. Adagrad jumps to 11 fast, then creeps to 12.
+- **TensorFlow**: `tf.keras.optimizers.Adagrad()`
+
+## 5. Momentum
+- **What It Does**: Adds speed (momentum) to SGD, rolling past small bumps toward the goal.
+- **Simple Terms**: Like a ball rolling downhill—keeps going even if it hits a pebble.
+- **Example**: Guessed 30 mph speed limit, real is 40 mph. Momentum pushes past 35 mph to near 40 mph.
+- **TensorFlow**: Built into `tf.keras.optimizers.SGD(momentum=0.9)`
+
+## Quick Recap
+- **SGD**: “Slow and steady steps” (e.g., weight guesses).
+- **Adam**: “Smart, fast fixes” (e.g., temperature).
+- **RMSProp**: “Adjusts to the terrain” (e.g., rent prices).
+- **Adagrad**: “Big moves early, then fine-tune” (e.g., apple counts).
+- **Momentum**: “Rolls with speed” (e.g., speed limits).
+
+Optimizers tweak the model’s weights to minimize loss, each with a unique style—TensorFlow picks the best one for your problem.
