@@ -1,1 +1,1 @@
-# Fashion MNIST Dataset(./https://github.com/zalandoresearch/fashion-mnist)
+# [Fashion MNIST Dataset](./https://github.com/zalandoresearch/fashion-mnist)
