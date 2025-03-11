@@ -16,6 +16,9 @@ where $\delta_{ij}$ is the Kronecker delta (1 if $i = j$, 0 otherwise). Softmax 
 **Example**: $\mathbf{z} = [1, 2, 3]$ → $\sigma(\mathbf{z}) \approx [0.090, 0.245, 0.665]$.
 
 ---
+σ(z)i=ezi∑j=1nezj,i=1,2,…,n
+
+
 
 ## ReLU: Light Switch, Then Thresholding
 Think of a toy light switch: push it up, the light glows; don’t push, it’s off. **ReLU** is that switch for numbers—positive ones stay, negatives turn to zero!  
