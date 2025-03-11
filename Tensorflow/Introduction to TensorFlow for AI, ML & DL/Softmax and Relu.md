@@ -4,9 +4,9 @@
 Imagine you’re sharing candy with friends: the kid who loves candy most gets the biggest pile, but it all has to add up to 100 pieces total. **Softmax** does this with numbers—it picks who’s “best” and makes everything fair!  
 
 Now, mathematically, softmax transforms a vector $\mathbf{z} = [z_1, z_2, \dots, z_n] \in \mathbb{R}^n$ into a probability distribution:
-$$
-\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^n e^{z_j}}, \quad i = 1, 2, \dots, n
-$$
+
+$$ \sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^n e^{z_j}}, \quad i = 1, 2, \dots, n $$
+
 Each output $\sigma(\mathbf{z})_i \in (0, 1)$ and $\sum_{i=1}^n \sigma(\mathbf{z})_i = 1$. The exponential $e^{z_i}$ amplifies larger inputs, and the normalization ensures a valid distribution. Its gradient, crucial for optimization, is:
 $$
 \frac{\partial \sigma(\mathbf{z})_i}{\partial z_j} = \sigma(\mathbf{z})_i (\delta_{ij} - \sigma(\mathbf{z})_j)
