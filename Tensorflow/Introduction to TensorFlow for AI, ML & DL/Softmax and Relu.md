@@ -17,6 +17,8 @@ where \(\delta_{ij}\) is the Kronecker delta. Softmax is translation-invariant (
 
 ---
 
+$a + b$
+
 ## ReLU: Light Switch, Then Thresholding
 Think of a toy light switch: push it up, the light glows; don’t push, it’s off. **ReLU** is that switch for numbers—positive ones stay, negatives turn to zero!  
 
