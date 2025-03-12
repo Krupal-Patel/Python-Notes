@@ -31,5 +31,10 @@ Simple Example (1D Convolution)
 
 # Pooling
 
+In CNNs, pooling is a step that comes after convolution. After the convolution layer uses filters to make a feature map (a grid showing where important stuff like edges or patterns are), pooling shrinks that map down. It’s like zooming out to see the big picture instead of every tiny detail. This makes the network faster, uses less memory, and helps it focus on the most important features without getting confused by small changes.
+There are two main types: max pooling (picking the biggest value) and average pooling (taking the average), with max pooling being the most popular.
+
+
+
 
 <img width="1395" alt="image" src="https://github.com/user-attachments/assets/e1459537-b55d-49dc-b0dd-3e5cccd0e26a" />
