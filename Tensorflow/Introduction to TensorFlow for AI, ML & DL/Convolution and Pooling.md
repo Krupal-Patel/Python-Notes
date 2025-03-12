@@ -38,3 +38,6 @@ There are two main types: max pooling (picking the biggest value) and average po
 
 
 <img width="1395" alt="image" src="https://github.com/user-attachments/assets/e1459537-b55d-49dc-b0dd-3e5cccd0e26a" />
+
+
+# [Convolution Playlist](https://bit.ly/2UGa7uH)
